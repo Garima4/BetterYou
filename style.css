@@ -1,0 +1,43 @@
+.message-div {
+    width: 80%;
+    margin: auto;
+    border: 2px black double;
+    height: 250px;
+    background: #f1f1f1de;
+    overflow-y: auto;
+}
+
+.user-message {
+    color: #fff;
+    background: #727BFF;
+    padding: 5px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.message-div::-webkit-scrollbar {
+    display: none;
+}
+
+.img-height {
+    height: 20px !important;
+}
+
+#message {
+    border-color: #6c757d;
+}
+
+.msg-from {
+    color: #545864;
+    float:left;
+}
+
+.msg-to {
+    color: #545864;
+    float:right;
+}
+
+.msg-from, .msg-to {
+    font-size: 12px;
+}
+
+
